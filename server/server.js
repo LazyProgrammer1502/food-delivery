@@ -15,7 +15,7 @@ const app = express();
 app.set("trust proxy", 1);
 
 const allowedOrigins = [
-  "https://food-delivery-ecru-five.vercel.app/",
+  "https://food-delivery-ecru-five.vercel.app",
   process.env.CLIENT_API_URL,
 ].filter(Boolean);
 
